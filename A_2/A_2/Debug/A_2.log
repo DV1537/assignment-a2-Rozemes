@@ -1,0 +1,7 @@
+﻿  Main.cpp
+c:\users\jones\desktop\softw\dv1537\inl 3\a_2\a_2\main.cpp(108): warning C4018: '<': signed/unsigned mismatch
+c:\users\jones\desktop\softw\dv1537\inl 3\a_2\a_2\main.cpp(198): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\users\jones\desktop\softw\dv1537\inl 3\a_2\a_2\main.cpp(200): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\users\jones\desktop\softw\dv1537\inl 3\a_2\a_2\main.cpp(211): warning C4018: '<': signed/unsigned mismatch
+c:\users\jones\desktop\softw\dv1537\inl 3\a_2\a_2\main.cpp(232): warning C4018: '<': signed/unsigned mismatch
+  A_2.vcxproj -> C:\Users\jones\Desktop\SOFTW\DV1537\Inl 3\A_2\Debug\A_2.exe
