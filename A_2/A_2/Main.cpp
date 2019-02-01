@@ -30,9 +30,9 @@ int main(int argc, char* argv[]) {
 	Shape **shapeList = nullptr;
 	int size;
 
-	if (2 > 1) // -------------------------------------------------------- CHANGE 2 TO argc
+	if (argc > 1)
 	{ 
-		switch (tryAndReadFile("test.txt", argc)) // -------------------------------------------------------- CHANGE test.txt TO argv[1]
+		switch (tryAndReadFile(argv[1], argc)) 
 		{
 		case fileNotFound:
 			cout << "The given argument is not an existing file" << endl;
@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
 			exit(EXIT_FAILURE);
 			break;
 		case validFile:
-			shapeList = createArray("test.txt", size);  // -------------------------------------------------------- CHANGE test.txt TO argv[1]
+			shapeList = createArray(argv[1], size);  
 
 			cout << "Area: " << roundDecimals(shapeList[0]->area(), 3) << endl;
 
